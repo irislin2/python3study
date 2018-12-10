@@ -18,11 +18,10 @@ print('\nQ2:'+GraphQL_upper)
 # Q3: 印出這個段落有多少個英文單字(不含標點符號與空白)
 print('Q3:\n'+str(len(paragraph.split())))
 # Q4: x = 1, y = 6, 把兩個變數的值交換, 讓他變成 x = 6, y = 1, 只能使用加減乘除, 不能使用第三個變數
-x='1'
-y='6'
+x=1
+y=6
 
-x=x+y
-y=x[0]
-x=x[1]
-print('\nQ4:\n'+'x='+x+' y='+y)
+x*=y
+y//=y
+print('\nQ4:\n'+'x='+str(x)+' y='+str(y))
 
