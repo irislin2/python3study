@@ -25,3 +25,7 @@ x*=y
 y//=y
 print('\nQ4:\n'+'x='+str(x)+' y='+str(y))
 
+'''Q2 正解
+str = 'GraphQL'
+print (paragraph.lower().replace((str.lower()), str.upper()))
+'''
